@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pesquisa.html">Prática hospitalar</a></li>             
+        <li><a href="pesquisa2.html">Recreação</a></li>                
+        <li><a href="formulario.html">Formulário</a></li>
+        <li><a href="Feedback.html">Feedback</a>   </li>
+        
+        <footer class="comunicacao">
+            <h2>Fique conectado !</h2>
+
+            <a href="https://www.facebook.com/rafaelrar" target="_blank">
+                <img src="./img/Facebook-share-icon.png.crdownload" alt="botão face" width="50" height="50">
+            </a>
+            <a href="https://www.linkedin.com/in/rafael-rara/" target="_blank">
+                <img src="./img/LinkedIn.png" alt="botão LinkedIn" width="50" height="50">
+            </a>
+            <a href="https://github.com/rafaelrara" target="_blank">
+                <img src="./img/github.png" alt="botão github" width="50" height="50">
+            </a>
+            <small>Desenvolvido por Rafael Ramos <br> Copyright © 2021 </small>
+        </footer>
+    </ul>
+    
+    <div>
+        <h1>
+            Formulário sobre o FriendBot
+        </h1>
+
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome"> Nome do usuário: </label>
+            <input type="text" id="nome" autofocus>
+        </fieldset>
+
+        <fieldset>
+            <label for="nome"> Nome do grupo de trabalho: </label>
+            <input type="text" id="nome" autofocus>
+        </fieldset>
+
+        <fieldset>
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" placeholder="exemplo@uol.com.br">
+        </fieldset>
+
+        <fieldset>
+            <label for="site">Seu Site:</label>
+            <input type="url" id="site">
+        </fieldset>
+
+        <fieldset>
+            <label for="data">Data do término do trabalho:</label>
+            <input type="date" id="data">
+        </fieldset>
+
+        <fieldset>
+            <label for="numero">Número de integrantes no grupo</label>
+            <input type="number" id="numero" min="1" max="5">
+        </fieldset>
+
+        <fieldset>
+            <h3>Selecione o nível de dificuldade do trabalho:</h3>
+            <input type="radio" name="suite" id="first">
+            <label for="first">Fácil</label>
+            <input type="radio" name="suite" id="second">
+            <label for="second">Médio</label>
+            <input type="radio" name="suite" id="master">
+            <label for="master">Difícil</label>
+        </fieldset>
+
+        <fieldset>
+            <h3>Quais linguagens/programações foram utilizadas:</h3>
+            <input type="checkbox" name="opção" id="opção1">
+            <label for="opção1">HTML</label>
+            <input type="checkbox" name="opção" id="opção2">
+            <label for="opção2">CSS</label>
+            <input type="checkbox" name="opção" id="opção3">
+            <label for="opção3">JavaScript</label>
+            <input type="checkbox" name="opção" id="opção4">
+            <label for="opção4">outros</label>
+        </fieldset>
+
+        <a href="Feedback.html">
+        <input type="submit" value="Enviar dados">
+        </a>
+         
+    </div>
+</body>
+</html>

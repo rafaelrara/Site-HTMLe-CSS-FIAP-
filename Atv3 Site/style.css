@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Source+Code+Pro:ital@1&display=swap');
+
+body{
+    background-image: url(./img/hubble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+ul  {
+    list-style-type: none;
+    margin: 0px;
+    padding: 1px;
+    width: 20%;
+    background-color: rgb(66, 66, 66);
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    border: 1px solid black;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 3px groove white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+li a:hover {
+    background-color: purple;
+    color: white;
+}
+
+h2, h3, table, p, label{
+    color: white;  
+}
+
+h1, h4, legend{
+    color: purple;
+}
+
+p{
+    margin-bottom: 5%;
+}
+
+
+div {
+    margin-left: 21%;
+    padding:1px 16px;
+}
+
+#dados{
+    border-collapse: collapse;
+    padding: 8px;
+    width: 100%;
+}
+
+#dados td, #dados th{
+    border: 1px solid white;
+    padding: 8px;
+}
+
+#dados th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: violet;
+}
+
+#dados td:hover{
+    background-color: purple;
+}
+
+#tabela{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.comunicacao{
+    margin-top: 70%;
+    margin-left: 10%;
+    font-size: 15px;
+}
+
+.fotos{
+    height: 200px;
+}
+
+.sucesso{
+    margin-left: 20%;
+}
